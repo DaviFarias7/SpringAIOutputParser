@@ -6,8 +6,9 @@ Construí este projeto utilizando a documentação do Spring AI. Nele, o resulta
 Com isto, na classe OutputParserController eu defino o que a IA irá listar na resposta String userMessage = """ Generate the filmography for the actor {actor}. {format} """ (Gere para mim a filmografia do ator X).
 
 ### Documentação do Spring AI
-[https://docs.spring.io/spring-ai/reference/api/clients/image/openai-image.html](https://docs.spring.io/spring-ai/reference/api/output-parser.html)
+A documentação do OutputParser foi removida pois a partir de 02.05.2024 as classes OutputParser, BeanOutputParser, ListOutputParser e MapOutputParser ficaram obsoletas e foram substituídas pelas classes StructuredOutputConverter, BeanOutputConverter, ListOutputConverter e MapOutputConverter. 
 
+https://docs.spring.io/spring-ai/reference/api/structured-output-converter.html
 
 
 ### Endpoint listando os filmes do ator digitado
